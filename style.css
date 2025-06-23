@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.main{
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 20px;
+    width: 700px;
+    padding: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+h1{
+    font-family: "Young Serif", Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0px;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+    margin-left: -30px;
+}
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    line-height: 40px;
+}
+.preparation li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+h2{
+    font-family: "Young Serif", Arial, Helvetica, sans-serif;
+    margin: 10 0px;
+    color: hsl(14, 45%, 36%);
+    /* margin-left: -22px; */
+}
+.ingredients{
+    /* padding: 20px 0px; */
+    margin-bottom: 20px;
+    padding-left: 20px;
+    line-height: 40px;
+}
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+span{
+    font-weight: bold;
+}
+
+li{
+    padding-left: 10px;
+}
+.instrustions{
+    padding: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+.instrustions ol{
+    margin-top: 15px;
+}
+hr{
+    margin-bottom: 30px;
+}
+
+.instrustions li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+table   {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    height: 50px;
+    padding-left: 30px;
+    border-bottom: 1.5px solid #b6b5b5;
+}
+td:last-child{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.nutri{
+    padding: 20px 0px;
+}
