@@ -112,7 +112,7 @@ table   {
 td{
     height: 50px;
     padding-left: 30px;
-    border-bottom: 1.5px solid #b6b5b5;
+    /* border-bottom: 1.5px solid #b6b5b5; */
 }
 td:last-child{
     color: hsl(14, 45%, 36%);
@@ -120,4 +120,7 @@ td:last-child{
 }
 .nutri{
     padding: 20px 0px;
+}
+#first{
+    border-bottom: 1.5px solid #b6b5b5; 
 }
